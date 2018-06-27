@@ -7,7 +7,7 @@ The World Wide Web has been central to the development of the Information Age an
 Embedded hyperlinks permit users to navigate between web pages. Multiple web pages with a common theme, a common domain name, or both, make up a website. Website content can largely be provided by the publisher, or interactively where users contribute content or the content depends upon the users or their actions. Websites may be mostly informative, primarily for entertainment, or largely for commercial, governmental, or non-governmental organisational purposes.
 
 ## 官方资源 💼
-- 👨 
+- 👨 [Github资源收集](https://segmentfault.com/a/1190000003510001)
 - 🏃 
 - 👨 
 - 🏃 
