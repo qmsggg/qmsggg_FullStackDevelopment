@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+			//    	mui.plusReady(function() {
+			//    		document.getElementById("btn1").addEventListener('tap', function() {
+			//    			mui.ajax('https://www.sojson.com/open/api/weather/json.shtml', {
+			//    				data:{
+			//    					city:'北京'
+			//    				},
+			//    				type:'GET',
+			//    				dataType:'JSON',
+			//    				success:function(data) {
+			//    					mui.toast(data);
+			//    				},
+			//    				error:function(xhr,type,errorThrown){
+			//						//异常处理；
+			//						mui.toast(type);
+			//	                }
+			//    			}
+			//    			);
+			//    		})
+			//    	});
+			mui.plusReady(function() {
+				document.getElementById("btn1").addEventListener('tap', function() {
+					mui.ajax({
+						url: 'http://www.html5plus.org/doc/zh_cn/xmlhttprequest.html',
+						type: 'GET',
+						dataType: 'JSON',
+						success: function(data) {
+							mui.toast(data);
+						},
+						error: function(xhr, type, errorThrown) {
+							//异常处理；
+							mui.toast(type);
+						}
+					});
+				})
+			});
+			mui.plusReady(function() {
+				document.getElementById("btn2").addEventListener('tap', function() {
+					mui.get(
+						'https://www.sojson.com/open/api/weather/json.shtml', {
+							city: '北京',
+						},
+						function(data) {
+							mui.toast(data);
+						},
+						'json'
+					);
+				});
+			});
+			mui.plusReady(function() {
+				document.getElementById("btn3").addEventListener('tap', function() {
+					mui.getJSON(
+						'https://www.sojson.com/open/api/weather/json.shtml', {
+							city: '北京',
+						},
+						function(data) {
+							mui.toast(data);
+						}
+					);
+				});
+			});
+			mui.plusReady(function() {
+				document.getElementById("btn4").addEventListener('tap', function() {
+					mui.toast(plus.os.version)
+				});
+			})
+			
+		</script>
+	</head>
+
+	<body>
+		<div class="mui-bar-nav">
+			<h1>服务端数据获取</h1>
+		</div>
+
+		<div class="mui-content mui-scrollbar-vertical">
+			<button type="button" id="btn1">mui.ajax</button>
+			<button type="button" id="btn2">mui.get</button>
+			<button type="button" id="btn3">mui.getJSON</button>
+			<button type="button" id="btn4">imei</button>
+		</div>
+	</body>
+
+</html>
