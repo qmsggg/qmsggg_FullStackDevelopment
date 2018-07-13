@@ -30,6 +30,7 @@ Embedded hyperlinks permit users to navigate between web pages. Multiple web pag
 
 ### 开源库 🔧
 - [MUI](https://github.com/dcloudio/mui)
+- [DCloud开源项目集锦](http://www.dcloud.io)
 
 - [全栈工程师培训材料](https://github.com/ruanyf/jstraining)
 ```
