@@ -18,8 +18,14 @@ Embedded hyperlinks permit users to navigate between web pages. Multiple web pag
 
 
 ### 博客
-
-- 
+- [腾讯alloyteam团队前端代码规范](https://www.kancloud.cn/digest/code-guide)
+- [腾讯alloyteam团队](http://alloyteam.github.io/CodeGuide/)
+- [fouber的前端工程专题](https://www.kancloud.cn/digest/fis#/dashboard)
+- [王增辉的工作笔记](https://www.kancloud.cn/iwzh/wzhquestion#/catalog)
+- [前端开发规范手册](https://www.kancloud.cn/kancloud/front-end-style-guide)
+- [响应式设计快速指南](https://www.kancloud.cn/kancloud/responsive-typography#/catalog)
+- [Web前端干货铺](https://www.kancloud.cn/jaya1992/fe-notes#/catalog)
+- [前端开发者手册](https://www.kancloud.cn/kancloud/front-end-dev-handbook)
 
 ### 开源库 🔧
 
