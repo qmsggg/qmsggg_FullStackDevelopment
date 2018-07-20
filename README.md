@@ -15,7 +15,7 @@ Embedded hyperlinks permit users to navigate between web pages. Multiple web pag
 ## 第三方资源
 
 ### 源码
-
+- [微信小程序全套(github同名)](https://gitee.com/LHCoder/platform)
 
 ### 博客
 - [腾讯alloyteam团队前端代码规范](https://www.kancloud.cn/digest/code-guide)
