@@ -27,6 +27,7 @@ Embedded hyperlinks permit users to navigate between web pages. Multiple web pag
 - [Web前端干货铺](https://www.kancloud.cn/jaya1992/fe-notes#/catalog)
 - [前端开发者手册](https://www.kancloud.cn/kancloud/front-end-dev-handbook)
 - [Weex](http://weex.apache.org/cn/guide/)
+- [进阶攻略|前端最全的框架总结](https://www.jianshu.com/p/2a8ce7075d79)
 
 ### 开源库 🔧
 - [MUI](https://github.com/dcloudio/mui)
@@ -47,7 +48,7 @@ CSS
 
 ## MY
 - [Web开发之旅]()
-- [MUI开发之旅]()
+- [MUI开发之旅](https://github.com/qmsggg/qmsggg_MUI_Developer)
 ## 日常关注的网站
 - [Get社区](http://get.ftqq.com/?c=default)
 
