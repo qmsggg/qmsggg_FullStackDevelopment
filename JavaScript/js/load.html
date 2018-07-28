@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>load</title>
+
+</head>
+<body>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<script type="text/javascript">
+		window.onload = function () {
+			console.log('load start');
+			var p = document.getElementsByTagName('p');
+			for (var i = p.length - 1; i >= 0; i--) {
+				var pp = p[i];
+				pp.innerHTML = i;
+			}
+		}
+	</script>
+</body>
+</html>
