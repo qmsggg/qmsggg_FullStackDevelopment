@@ -28,6 +28,10 @@ Embedded hyperlinks permit users to navigate between web pages. Multiple web pag
 - [前端开发者手册](https://www.kancloud.cn/kancloud/front-end-dev-handbook)
 - [Weex](http://weex.apache.org/cn/guide/)
 - [进阶攻略|前端最全的框架总结](https://www.jianshu.com/p/2a8ce7075d79)
+- [前端收集](https://github.com/foru17/front-end-collect)
+```
+在前端路上摸索前行，在这里分享自己长期关注的前端开发相关的优秀网站、博客、以及活跃开发者。欢迎更新，以下各排名不分先后顺序。
+```
 
 ### 开源库 🔧
 - [MUI](https://github.com/dcloudio/mui)
